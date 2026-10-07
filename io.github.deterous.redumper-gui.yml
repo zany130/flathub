@@ -23,7 +23,7 @@ modules:
         CC: clang
         CXX: clang++
     config-opts:
-      - -DCMAKE_BUILD_TYPE=Release
+      - -DCMAKE_BUILD_TYPE=RelWithDebInfo
       - -DCMAKE_C_COMPILER=clang
       - -DCMAKE_CXX_COMPILER=clang++
       - -DREDUMPER_VERSION_BUILD=b750
